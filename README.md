@@ -17,7 +17,7 @@ We propose a GAN-based model that improves performance by,
 
 <!-- ------------------------------------------------ -->
 ## Results
-![compare](outputs\res.png)
+![compare](outputs\res.jpg)
 
 
 
@@ -84,36 +84,3 @@ conda activate inpainting
 
 Download the model dirs and put it under `experiments/`
 
-
-<!-- ------------------------------------------------------------------- -->
-## Demo
-
-1. Download the pre-trained model parameters and put it under `experiments/`
-2. Run by
-```
-cd src
-python demo.py --dir_image [folder to images]  --pre_train [path to pre_trained model] --painter [bbox|freeform]
-```
-3. Press '+' or '-' to control the thickness of painter.
-4. Press 'r' to reset mask; 'k' to keep existing modifications; 's' to save results.
-5. Press space to perform inpainting; 'n' to move to next image; 'Esc' to quit demo.
-
-
-![face](https://github.com/researchmm/AOT-GAN-for-Inpainting/blob/master/docs/face.gif?raw=true)
-![logo](https://github.com/researchmm/AOT-GAN-for-Inpainting/blob/master/docs/logo.gif?raw=true)
-
-
-
-<!-- ------------------------ -->
-## TensorBoard
-Visualization on TensorBoard for training is supported.
-
-Run `tensorboard --logdir [log_folder] --bind_all` and open browser to view training progress.
-
-## LICENSE
-This project is released under the Apache 2.0 license. Please see the LICENSE file for more information.
-
-<!-- ------------------------ -->
-## Acknowledgements
-
-We would like to thank [edge-connect](https://github.com/knazeri/edge-connect), [EDSR_PyTorch](https://github.com/sanghyun-son/EDSR-PyTorch).

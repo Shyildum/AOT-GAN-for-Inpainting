@@ -3,7 +3,6 @@ __pycache__
 *.txt
 *.png
 events.*
-outputs
 docs
 eval
 .pre-commit-config.yaml

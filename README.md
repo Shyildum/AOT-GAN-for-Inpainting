@@ -15,6 +15,10 @@ We propose a GAN-based model that improves performance by,
 2) **Enhancing texture synthesis by SoftGAN in the discriminator.**  We improve the training of the discriminator by a tailored mask-prediction task. The enhanced discriminator is optimized to distinguish the detailed appearance of real and synthesized patches, which can in turn facilitate the generator to synthesize more realistic textures.
 
 
+<!-- ------------------------------------------------ -->
+## Results
+![compare](outputs\res.png)
+
 
 
 <!-- -------------------------------- -->

@@ -17,7 +17,7 @@ We propose a GAN-based model that improves performance by,
 
 <!-- ------------------------------------------------ -->
 ## Results
-![compare](outputs\res.jpg)
+![compare](https://github.com/Shyildum/AOT-GAN-for-Inpainting/blob/master/outputs/res.jpg)
 
 
 

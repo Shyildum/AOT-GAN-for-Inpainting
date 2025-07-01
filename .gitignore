@@ -1,0 +1,10 @@
+__pycache__
+*.pt
+*.txt
+*.png
+events.*
+outputs
+docs
+eval
+.pre-commit-config.yaml
+LICENSE
